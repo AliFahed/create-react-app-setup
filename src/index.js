@@ -1,14 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './style.css';
 
 function Header() {
   return (
-    <header>
-      <nav>React Logo</nav>
-      <ul>
-        <li>Pricing</li>
-        <li>About</li>
-        <li>Contact</li>
+    <header className="header">
+      <nav className="navbar">React Logo</nav>
+      <ul className="ul">
+        <li className="nav-items">Pricing</li>
+        <li className="nav-items">About</li>
+        <li className="nav-items">Contact</li>
       </ul>
     </header>
   );
